@@ -21,14 +21,14 @@ const Nav = () => {
     return (
         <header className="flex-row">
             <h2 className="d-inline no-wordwrap">
-                <a href='/'>
+                <a href='/' data-testid='link'>
                     <span role='img' aria-label='camera'>📸</span> Oh Snap!
                 </a>
             </h2>
             <nav>
                 <ul className='flex-row'>
                     <li className='mx-2 no-wordwrap'>
-                        <a href='#about'>
+                        <a href='#about'data-testid='about'>
                             About Me
                         </a>
                     </li>
