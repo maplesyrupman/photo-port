@@ -14,6 +14,9 @@ exports[`About component matches snapshot DOM node structure 1`] = `
       src="cover-image.jpg"
       style="width: 100%;"
     />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea amet similique voluptates numquam adipisci. Est accusantium, nostrum maxime dolorem nisi similique quod reiciendis quis exercitationem deleniti, consectetur suscipit soluta ex, veritatis voluptates quidem magni cumque quos aperiam! Provident, mollitia dolor maiores numquam iusto soluta tempora id at quos a enim corporis culpa modi. Debitis, facilis!
+    </p>
   </section>
 </DocumentFragment>
 `;
