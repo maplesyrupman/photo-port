@@ -316,3 +316,7 @@ a {
 .no-wordwrap {
   white-space: nowrap;
 }
+
+.error-text {
+  color: var(--error)
+}
