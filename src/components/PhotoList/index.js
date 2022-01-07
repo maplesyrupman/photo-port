@@ -6,7 +6,7 @@ import Modal from "../Modal"
 const PhotoList = ({category}) => {
     const [currentPhoto, setCurrentPhoto] = useState()
     const [modalIsOpen, setModalIsOpen] = useState(false)
-    
+
 
     const toggleModal = (image, i) => {
         setCurrentPhoto({...image, index:i})
@@ -18,7 +18,7 @@ const PhotoList = ({category}) => {
             {modalIsOpen && 
             <Modal 
             currentPhoto={currentPhoto}
-            setModalIsOpen={setModalIsOpen}
+            toggleModal={toggleModal}
             ></Modal>
             }
             <div className="flex-row">

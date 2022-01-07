@@ -1,10 +1,10 @@
 import React from "react"
 
-export default function Modal({currentPhoto, setModalIsOpen}) {
+export default function Modal({currentPhoto, toggleModal}) {
     const {index, name, category, description} = currentPhoto
-    function closeModal() {
-        setModalIsOpen(false)
-    }
+    // function closeModal() {
+    //     setModalIsOpen(false)
+    // }
 
     return(
         <div className="modalBackdrop">
@@ -14,7 +14,7 @@ export default function Modal({currentPhoto, setModalIsOpen}) {
                 <p>
                     {description}
                 </p>
-                <button type='button' onClick={() => closeModal()}>
+                <button type='button' onClick={toggleModal}>
                     Close this modal
                 </button>
             </div>
